@@ -1,6 +1,5 @@
 # python3
 
-
 def max_sliding_window_naive(sequence, m):
     maximums = []
     for i in range(len(sequence) - m + 1):
@@ -14,5 +13,4 @@ if __name__ == '__main__':
     assert len(input_sequence) == n
     window_size = int(input())
 
-    print(*max_sliding_window_naive(input_sequence, window_size))
-
+    print(" ".join(map(str, max_sliding_window_naive(input_sequence, window_size
